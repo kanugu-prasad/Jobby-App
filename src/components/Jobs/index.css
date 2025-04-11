@@ -1,0 +1,222 @@
+.job-container {
+  background-color: #000000;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+.job-sub-container {
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.job-first-container {
+  margin-bottom: 10px;
+}
+.job-search-container {
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.job-search-container1 {
+  display: none;
+}
+
+.job-search-input {
+  background-color: transparent;
+  height: 25px;
+  padding-left: 8px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  color: #f8fafc;
+}
+
+.search-icon-container {
+  background-color: #202020;
+  border: none;
+  height: 25px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 15px;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.profile-image {
+  height: 40px;
+  width: 40px;
+}
+
+.profile-name {
+  font-size: 20px;
+  color: #6366f1;
+  font-weight: bold;
+}
+.profile-short-bio {
+  color: #2c364c;
+  font-size: 12px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.job-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.horizontal-line {
+  height: 1px;
+  background-color: #2c364c;
+}
+.categery-paragraph {
+  color: #ffffff;
+  font-size: 14px;
+}
+.categery-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.categery-item-input-style {
+  margin-right: 10px;
+}
+.categery-item-paragraph {
+  color: #f1f5f9;
+  font-size: 9px;
+}
+.unorder-job-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.job-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-empty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.empty-image {
+  width: 130px;
+}
+.empty-heading {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.empty-paragraph {
+  font-size: 15px;
+  color: #f1f5f9;
+}
+.button {
+  color: #ffffff;
+  border-radius: 8px;
+  height: 40px;
+  width: 100px;
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .job-sub-container {
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    padding: 10px;
+    width: 240px;
+  }
+  .profile-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .profile-name {
+    font-size: 25px;
+  }
+  .profile-short-bio {
+    font-size: 15px;
+  }
+  .job-search-container {
+    display: none;
+  }
+  .job-search-container1 {
+    border: 1px solid #64748b;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  .job-first-container {
+    margin-right: 20px;
+  }
+  .categery-item-input-style {
+    margin-right: 16px;
+  }
+  .categery-item-paragraph {
+    color: #f1f5f9;
+    font-size: 13px;
+  }
+  .job-empty-container {
+    min-height: 100vh;
+    text-align: center;
+    padding-left: 40px;
+  }
+  .empty-image {
+    width: 300px;
+  }
+  .empty-heading {
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  .empty-paragraph {
+    font-size: 15px;
+    color: #f1f5f9;
+  }
+  .job-loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}

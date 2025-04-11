@@ -1,0 +1,127 @@
+.job-item-details-container {
+  background-color: #000000;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+.job-item-succes-container {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.job-list-container1 {
+  border-radius: 8px;
+  background-color: #202020;
+  padding: 10px;
+}
+.description-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.visit-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #6366f1;
+}
+.visit-style {
+  color: #6366f1;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 9px;
+}
+.view-icon {
+  font-size: 10px;
+}
+
+.unorder-skill-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.job-item-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.unorder-skill-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 130px;
+  margin-right: 10px;
+}
+
+.skill-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.skill-icon-name {
+  font-size: 14px;
+  color: #f1f5f9;
+}
+
+.image-url-style {
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.unorder-similar-job-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.similar-job-list-container {
+  background-color: #202020;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .job-description-imageurl-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .job-item-succes-container {
+    padding: 5%;
+    background-color: #000000;
+  }
+  .unorder-similar-job-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .job-list-container1 {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #272727;
+  }
+  .skill-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 230px;
+    margin-right: 10px;
+  }
+  .similar-job-heading {
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+  }
+}
